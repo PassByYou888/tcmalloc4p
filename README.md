@@ -21,9 +21,9 @@ tcmalloc for pascal (tcmalloc - google performance tools)
 - codetyphon
 
 
-## 制作jemalloc4p的导火索
+## 制作tcmalloc4p的导火索
 
-- 顺手做的MM,过程和jemalloc差太多
+- 顺手做的MM,过程和jemalloc差不多的东西,依赖项有点变化
 
 
 ### windows 预编译下列了动态库
