@@ -30,7 +30,7 @@ tcmalloc for pascal (tcmalloc - google performance tools)
 
 - 32位系统使用 **libtcmalloc_minimal_ia32.dll**
 - 64位系统使用 **libtcmalloc_minimal_x64.dll** 
-
+- **提示：windows预编译库需要vcruntime140依赖库(vs2017)**
 
 ### Linux 编译后才能用
 
@@ -51,8 +51,8 @@ sudo make install PREFIX=/usr/lib
 
 ### OSX and IOS 编译后才能用
 
-- 如果使用IOS静态链接库,需要自己编译,弄完以后把libjemalloc.a考到delphi工程来链接
-- 如果使用OSX动态库,把libjemalloc.dylib考到delphi工程中一起打包
+- 如果使用IOS静态链接库,需要自己编译
+- 如果使用OSX动态库,需要安装
 - **我今天做项目时,macos坏掉了,所以osx我没有测试,你自己测试一下吧,有问题给我来消息**
 
 ```batch
