@@ -38,6 +38,8 @@ tcmalloc for pascal (tcmalloc - google performance tools)
 - gperftools内置了面向开发者调试的程序,所以会引用一些三方库,不可以直接复制so,不要用jemalloc的方式装tcm
 - 在工程引入tcmalloc4p.pas后,按下列方式编译gperftools即可使用
 - iot系统已在树莓派4p测试通过
+- ubuntu这类linux如果是裸系统需要提前部署一些东西，sudo apt-get install autoconf automake libtool
+- debian系统可以直接编译安装
 
 ```batch
 git clone https://github.com/gperftools/gperftools
