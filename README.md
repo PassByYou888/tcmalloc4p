@@ -30,7 +30,7 @@ tcmalloc for pascal (tcmalloc - google performance tools)
 
 - 32位系统使用 **libtcmalloc_minimal_ia32.dll**
 - 64位系统使用 **libtcmalloc_minimal_x64.dll** 
-- **提示：windows预编译库需要vcruntime140依赖库(vs2017)**
+- **提示：windows预编译库需要vcruntime依赖库(vs2022)**
 
 ### Linux 编译后才能用
 
@@ -66,6 +66,11 @@ $ make -j2
 $ make install
 ```
 
+# 更新说明
+
+**2024-12** 全部动态库统一使用VS2022构建,依赖库同步更新
+
+---
 
 by.qq600585
 
